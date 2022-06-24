@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll';
 import { About } from './About/about';
 import { Arkadi } from './Arkadi/arkadi';
+import { Index } from './Skills';
 import { Skills } from './Skills/skills';
 
 export function App() {
@@ -23,7 +24,7 @@ export function App() {
           <About/>
         </section>
         <section id='skills'>
-          <Skills/>
+          <Index/>
         </section>
       </div>
     </div>
