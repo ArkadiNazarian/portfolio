@@ -1,5 +1,5 @@
 import { AiOutlineLinkedin, AiFillGithub } from 'react-icons/ai';
-export const Arkadi = () => {
+export const Home = () => {
     return (
         <div className='tw-grid tw-grid-cols-6'>
             <div className='tw-text-2xl tw-flex tw-flex-col tw-mt-20 tw-ml-16'>
