@@ -3,7 +3,7 @@ import { BsChevronCompactDown, BsChevronCompactUp } from "react-icons/bs";
 import { VscCode } from "react-icons/vsc";
 import { RiComputerLine } from "react-icons/ri";
 export const Skills = () => {
-    const [isCollapsed, setIsCollapsed] = useState<boolean>(false);
+    const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
     const handle_toggle_click = useCallback(() => {
         setIsCollapsed((isCollapsed) => !isCollapsed);
     }, []);
@@ -32,11 +32,11 @@ export const Skills = () => {
                         <p className="tw-text-base tw-text-third">More than a year</p>
                     </div>
                     <div className="tw-pt-3">
-                        <p className={isCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>HTML & CSS</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>TypeScript</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>JavaScript</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>React</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Tailwind CSS</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>HTML & CSS</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>TypeScript</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>JavaScript</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>React</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Tailwind CSS</p>
                     </div>
                 </div>
                 <div className="tw-col-start-5 tw-col-end-7">
@@ -53,11 +53,11 @@ export const Skills = () => {
                         <p className="tw-text-base tw-text-third">More than a year</p>
                     </div>
                     <div className="tw-pt-3">
-                        <p className={otherisCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Git</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Github</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Cypress</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Python</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-xs tw-text-primary" : "tw-hidden"}>Express.js</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Git</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Github</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Cypress</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Python</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Express.js</p>
                     </div>
                 </div>
             </div>
