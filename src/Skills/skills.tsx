@@ -15,7 +15,7 @@ export const Skills = () => {
         <div>
             <div className="tw-text-center ">
                 <p className="tw-text-4xl tw-text-secondary">Skills</p>
-                <p className="tw-text-sm tw-text-third">My technical level</p>
+                <p className="tw-text-xl tw-text-third">My technical level</p>
             </div>
             <div className="tw-grid tw-grid-cols-7">
                 <div className="tw-col-start-3 tw-col-end-5">

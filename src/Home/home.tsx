@@ -7,7 +7,7 @@ export const Home = () => {
                 <a className='tw-cursor-pointer tw-text-primary ' href='https://www.linkedin.com/in/arkadi-nazarian-ab17b2231/' target="_blank" ><AiOutlineLinkedin /></a>
             </div>
             <div className="tw-col-start-2 tw-col-span-4">
-                <p className='tw-text-5xl tw-text-secondary'>Hi,<br />I'm Arkadi;<br/>Welcome to my page</p>
+                <p className='tw-text-5xl tw-text-secondary'>Hi,<br />I'm Arkadi Nazarian,<br/>Welcome to my page</p>
                 <p className='tw-text-4xl tw-text-third'>Frontend Web Developer</p>
             </div>
 

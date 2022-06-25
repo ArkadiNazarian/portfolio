@@ -3,7 +3,7 @@ export const About = () => {
         <div>
             <div className="tw-text-center ">
                 <p className="tw-text-4xl tw-text-secondary">About Me</p>
-                <p className="tw-text-sm tw-text-third">My introduction</p>
+                <p className="tw-text-xl tw-text-third">My introduction</p>
             </div>
             <div className="tw-mt-20 tw-text-xl tw-grid tw-grid-cols-6">
                 <code className="tw-col-start-2 tw-col-span-4">
@@ -14,6 +14,8 @@ export const About = () => {
                     <span className="tw-text-code"> age </span> <span className="tw-text-secondary"> : </span> <span className="tw-text-property">"19 years old",</span>
                     <br />
                     <span className="tw-text-code"> city </span> <span className="tw-text-secondary"> : </span> <span className="tw-text-property">"Tehran",</span>
+                    <br />
+                    <span className="tw-text-code"> country </span> <span className="tw-text-secondary"> : </span> <span className="tw-text-property">"Iran",</span>
                     <br />
                     <span className="tw-text-code"> religion </span> <span className="tw-text-secondary"> : </span> <span className="tw-text-property">"Christian",</span>
                     <br />
