@@ -5,10 +5,10 @@ module.exports = {
   prefix:"tw-",
   theme: {
     colors:{
-      'primary':"#9382E8",
-      'secondary':"#F2F1F3",
+      'purple':"#9382E8",
+      'primary':"#F2F1F3",
+      'secondary':"#6D6A7C",
       'background':"#191627",
-      'third':"#6D6A7C",
       'code':"#db8ddb",
       'name':"#fac863",
       'curlybrackets':"#7adf76",

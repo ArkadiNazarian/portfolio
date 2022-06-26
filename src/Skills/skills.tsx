@@ -12,52 +12,52 @@ export const Skills = () => {
         othersetIsCollapsed((otherisCollapsed) => !otherisCollapsed);
     }, []);
     return (
-        <div>
+        <div className="tw-pt-20">
             <div className="tw-text-center ">
-                <p className="tw-text-4xl tw-text-secondary">Skills</p>
-                <p className="tw-text-xl tw-text-third">My technical level</p>
+                <p className="tw-text-4xl tw-text-primary">Skills</p>
+                <p className="tw-text-xl tw-text-secondary">My technical level</p>
             </div>
             <div className="tw-grid tw-grid-cols-7">
                 <div className="tw-col-start-3 tw-col-end-5">
                     <div>
                         <div className="tw-flex tw-items-center tw-cursor-pointer" onClick={handle_toggle_click}>
-                            <div className="tw-text-3xl tw-text-primary tw-pr-4 ">
+                            <div className="tw-text-3xl tw-text-purple tw-pr-4 ">
                                 <VscCode />
                             </div>
-                            <p className="tw-text-2xl tw-text-secondary">Frontent Developer</p>
-                            <span className="tw-text-3xl tw-text-primary tw-pl-4 ">
+                            <p className="tw-text-2xl tw-text-primary">Frontent Developer</p>
+                            <span className="tw-text-3xl tw-text-purple tw-pl-4 ">
                                 {isCollapsed ? <BsChevronCompactUp /> : <BsChevronCompactDown />}
                             </span>
                         </div>
-                        <p className="tw-text-base tw-text-third">More than a year</p>
+                        <p className="tw-text-base tw-text-secondary">More than a year</p>
                     </div>
                     <div className="tw-pt-3">
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>HTML & CSS</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>TypeScript</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>JavaScript</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>React</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Tailwind CSS</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>HTML & CSS</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>TypeScript</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>JavaScript</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>React</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Tailwind CSS</p>
                     </div>
                 </div>
                 <div className="tw-col-start-5 tw-col-end-7">
                     <div>
                         <div className="tw-flex tw-items-center tw-cursor-pointer" onClick={other_handle_toggle_click}>
-                        <div className="tw-text-3xl tw-text-primary tw-pr-4 ">
+                        <div className="tw-text-3xl tw-text-purple tw-pr-4 ">
                                 <RiComputerLine />
                             </div>
-                            <p className="tw-text-2xl tw-text-secondary">Other Skills</p>
-                            <span className="tw-text-3xl tw-text-primary tw-pl-4 ">
+                            <p className="tw-text-2xl tw-text-primary">Other Skills</p>
+                            <span className="tw-text-3xl tw-text-purple tw-pl-4 ">
                                 {otherisCollapsed ? <BsChevronCompactUp /> : <BsChevronCompactDown />}
                             </span>
                         </div>
-                        <p className="tw-text-base tw-text-third">More than a year</p>
+                        <p className="tw-text-base tw-text-secondary">More than a year</p>
                     </div>
                     <div className="tw-pt-3">
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Git</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Github</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Cypress</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Python</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-primary" : "tw-hidden"}>Express.js</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Git</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Github</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Cypress</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Python</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Express.js</p>
                     </div>
                 </div>
             </div>
