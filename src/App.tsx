@@ -5,20 +5,22 @@ import { Qualification } from './Qualification/qualification';
 import { Skills } from './Skills/skills';
 import { FiHome } from "react-icons/fi";
 import { SiAboutdotme } from "react-icons/si";
-import { RiPhoneLine,RiSettings4Line,RiSuitcaseLine } from "react-icons/ri";
+import { RiPhoneLine, RiSettings4Line, RiSuitcaseLine } from "react-icons/ri";
 
 export function App() {
   return (
     <div className="tw-h-screen tw-bg-background tw-font-sans tw-tracking-wider">
-      <div >
-        <div className="tw-flex tw-text-primary tw-flex-col tw-sticky tw-top-5 ">
-          <Link className="tw-cursor-pointer tw-m-4 hover:tw-text-purple" to="home" smooth={true} duration={1000}><FiHome/></Link>
-          <Link className="tw-cursor-pointer tw-m-4 hover:tw-text-purple" to="about" smooth={true} duration={1000}><SiAboutdotme/></Link>
-          <Link className="tw-cursor-pointer tw-m-4 hover:tw-text-purple" to="skills" smooth={true} duration={1000}><RiSettings4Line/></Link>
-          <Link className="tw-cursor-pointer tw-m-4 hover:tw-text-purple" to="qualification" smooth={true} duration={1000}><RiSuitcaseLine/></Link>
-          <Link className="tw-cursor-pointer tw-m-4 hover:tw-text-purple" to="contact" smooth={true} duration={1000}><RiPhoneLine/></Link>
+      <div className='tw-grid tw-grid-cols-8'>
+        <div className='tw-col-start-1'>
+          <div className="tw-flex tw-text-primary tw-flex-col tw-sticky tw-top-5 ">
+            <Link to="home" smooth={true} duration={1000}><FiHome className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="about" smooth={true} duration={1000}><SiAboutdotme className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="skills" smooth={true} duration={1000}><RiSettings4Line className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="qualification" smooth={true} duration={1000}><RiSuitcaseLine className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="contact" smooth={true} duration={1000}><RiPhoneLine className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+          </div>
         </div>
-        <div className='tw-bg-background'>
+        <div className='tw-bg-background tw-col-start-2 tw-col-end-8'>
           <section id='home'>
             <Home />
           </section>
