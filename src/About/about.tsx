@@ -17,8 +17,6 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> country </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Iran",</span>
                     <br />
-                    <span className="tw-text-code"> religion </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Christian",</span>
-                    <br />
                     <span className="tw-text-code"> nationality </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">[ "Iranian","Armenian" ],</span>
                     <br />
                     <span className="tw-text-code"> langueges </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">[ "Armenian","English","Persian" ],</span>
