@@ -29,7 +29,7 @@ export const Qualification = () => {
                 </div>
                 
                 <div className="tw-flex tw-flex-col tw-col-start-5">
-                    <p className="tw-text-base tw-text-primary">Frontend Web Developer </p><br/>
+                    <p className="tw-text-base tw-text-primary">FullStack Web Developer </p><br/>
                     <p className="tw-text-base tw-text-secondary"><FaBuilding className="tw-text-purple"/>  TeamHive </p><br/>
                     <p className="tw-text-sm tw-text-secondary"><FaCalendarAlt className="tw-text-purple"/>  2021 - present</p><br/>
                     <p className="tw-text-sm tw-text-secondary"><ImLocation className="tw-text-purple"/>  Helsinki-Finland</p>

@@ -35,7 +35,7 @@ export const Skills = () => {
                         <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>HTML & CSS</p>
                         <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>TypeScript</p>
                         <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>JavaScript</p>
-                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>React</p>
+                        <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>React.js</p>
                         <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Tailwind CSS</p>
                     </div>
                 </div>

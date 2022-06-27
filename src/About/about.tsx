@@ -21,7 +21,7 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> langueges </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">[ "Armenian","English","Persian" ],</span>
                     <br />
-                    <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"Typescript",</span><span className="tw-text-property">"React.js",</span><span className="tw-text-property">"Tailwind Css" ],</span>
+                    <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"TypeScript",</span><span className="tw-text-property">"React.js",</span><span className="tw-text-property">"Tailwind CSS" ],</span>
                     <br />
                     <span className="tw-text-code"> askMeAbout </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">  [ </span> <span className="tw-text-curlybrackets">"Web Development",</span><span className="tw-text-curlybrackets">"Frontend"</span><span className="tw-text-curlybrackets"> ],</span>
                     <br />
