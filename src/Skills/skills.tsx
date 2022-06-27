@@ -17,8 +17,8 @@ export const Skills = () => {
                 <p className="tw-text-4xl tw-text-primary">Skills</p>
                 <p className="tw-text-xl tw-text-secondary">My technical level</p>
             </div>
-            <div className="tw-grid tw-grid-cols-7">
-                <div className="tw-col-start-3 tw-col-end-5">
+            <div className="tw-grid tw-grid-cols-5">
+                <div className="tw-col-start-2 tw-col-end-4">
                     <div>
                         <div className="tw-flex tw-items-center tw-cursor-pointer" onClick={handle_toggle_click}>
                             <div className="tw-text-3xl tw-text-purple tw-pr-4 ">
@@ -39,7 +39,7 @@ export const Skills = () => {
                         <p className={isCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Tailwind CSS</p>
                     </div>
                 </div>
-                <div className="tw-col-start-5 tw-col-end-7">
+                <div className="tw-col-start-4">
                     <div>
                         <div className="tw-flex tw-items-center tw-cursor-pointer" onClick={other_handle_toggle_click}>
                         <div className="tw-text-3xl tw-text-purple tw-pr-4 ">
