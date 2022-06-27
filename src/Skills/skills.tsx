@@ -53,11 +53,11 @@ export const Skills = () => {
                         <p className="tw-text-base tw-text-secondary">More than a year</p>
                     </div>
                     <div className="tw-pt-3">
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Git</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Github</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Git & GitHub</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Node.js</p>
+                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Express.js</p>
                         <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Cypress</p>
                         <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Python</p>
-                        <p className={otherisCollapsed ? "tw-flex tw-text-base tw-text-purple" : "tw-hidden"}>Express.js</p>
                     </div>
                 </div>
             </div>

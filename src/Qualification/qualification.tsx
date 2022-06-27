@@ -1,5 +1,5 @@
 import { MdSchool, MdWorkOutline } from "react-icons/md";
-import { FaCalendarAlt } from "react-icons/fa";
+import { FaCalendarAlt,FaLaptopCode } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { FaBuilding } from "react-icons/fa";
 export const Qualification = () => {
@@ -31,18 +31,20 @@ export const Qualification = () => {
                 <div className="tw-flex tw-flex-col tw-col-start-5">
                     <p className="tw-text-base tw-text-primary">FullStack Web Developer </p><br/>
                     <p className="tw-text-base tw-text-secondary"><FaBuilding className="tw-text-purple"/>  TeamHive </p><br/>
+                    <p className="tw-text-base tw-text-secondary"><FaLaptopCode className="tw-text-purple"/>  TypeScript , React.js , Node.js , Express.js </p><br/>
                     <p className="tw-text-sm tw-text-secondary"><FaCalendarAlt className="tw-text-purple"/>  2021 - present</p><br/>
-                    <p className="tw-text-sm tw-text-secondary"><ImLocation className="tw-text-purple"/>  Helsinki-Finland</p>
+                    <p className="tw-text-sm tw-text-secondary"><ImLocation className="tw-text-purple"/>  Helsinki - Finland</p>
                 </div>
                 <div className="tw-flex tw-flex-col tw-col-start-3">
                     <p className="tw-text-base tw-text-primary">Math and Physics Diploma</p><br/>
                     <p className="tw-text-sm tw-text-secondary"><FaCalendarAlt className="tw-text-purple"/>  2018 - 2021</p>
                 </div>
                 <div className="tw-flex tw-flex-col tw-col-start-5 tw-col-end-7">
-                    <p className="tw-text-base tw-text-primary">QA Automation Testing with Cypress</p><br/>
+                    <p className="tw-text-base tw-text-primary">QA Automation Tester</p><br/>
                     <p className="tw-text-base tw-text-secondary"><FaBuilding className="tw-text-purple"/>  TeamHive </p><br/>
+                    <p className="tw-text-base tw-text-secondary"><FaLaptopCode className="tw-text-purple"/>  Cypress </p><br/>
                     <p className="tw-text-sm tw-text-secondary"><FaCalendarAlt className="tw-text-purple"/>  2021 - present</p><br/>
-                    <p className="tw-text-sm tw-text-secondary"><ImLocation className="tw-text-purple"/>  Helsinki-Finland</p>
+                    <p className="tw-text-sm tw-text-secondary"><ImLocation className="tw-text-purple"/>  Helsinki - Finland</p>
                 </div>
             </div>
         </div>
