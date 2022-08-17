@@ -29,9 +29,6 @@ export const Contact = () => {
                     </span>
                     <p className="tw-text-2xl tw-text-primary ">nazarianarkadi@gmail.com</p>
                 </div>
-
-
-
             </div>
         </div>
     )
