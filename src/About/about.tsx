@@ -38,6 +38,12 @@ export const About = () => {
                         <span className="tw-text-primary tw-text-2xl">01</span><br />
                         <span className="tw-text-secondary tw-text-sm">Companies</span>
                     </div>
+                    <div>
+                        <a href="web development.pdf" download="web development.pdf">
+                            <button>click</button>
+                        </a>
+
+                    </div>
                 </div>
             </div>
         </div>

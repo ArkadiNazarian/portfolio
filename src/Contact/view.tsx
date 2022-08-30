@@ -42,6 +42,14 @@ export const View = (props: IProps) => {
                         />
                     </div>
                     <div>
+                        <input
+                            name="email"
+                            type="text"
+                            value={props.form_data.email}
+                            onChange={props.handleChange}
+                        />
+                    </div>
+                    <div>
                         {
                             props.form_errors.message
                         }

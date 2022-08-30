@@ -1,6 +1,7 @@
 import { FormikErrors } from 'formik';
 
 export interface IFormValues {
+    email?:string;
     message?: string;
 }
 

@@ -9,11 +9,13 @@ export const useContainer = (): IProps => {
     const form = useRef();
 
     const initial_values: IFormValues = {
-        message: ""
+        message: "",
+        email:""
     };
 
     const validation_schema = yup.object().shape({
-        message: yup.string().required()
+        message: yup.string().required(),
+        email: yup.string().required()
     });
 
     const action_submit = () => {
