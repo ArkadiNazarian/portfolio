@@ -1,6 +1,4 @@
 import { BiSend } from "react-icons/bi";
-import { RiPhoneLine } from "react-icons/ri";
-import { SiGmail } from "react-icons/si";
 import { IProps } from "./model";
 
 export const View = (props: IProps) => {
