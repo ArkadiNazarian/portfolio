@@ -17,11 +17,11 @@ export function App() {
       <div className='tw-grid tw-grid-cols-8'>
         <div className='tw-col-start-1'>
           <div className="tw-flex tw-text-primary tw-flex-col tw-sticky tw-top-5 ">
-            <Link to="home" smooth={true} duration={1000}><FiHome className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
-            <Link to="about" smooth={true} duration={1000}><SiAboutdotme className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
-            <Link to="skills" smooth={true} duration={1000}><GiSkills className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
-            <Link to="qualification" smooth={true} duration={1000}><RiSuitcaseLine className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
-            <Link to="contact" smooth={true} duration={1000}><BiMessageDetail className='tw-text-4xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="home" smooth={true} duration={1000}><FiHome className='laptop:tw-text-4xl tablet:tw-text-3xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="about" smooth={true} duration={1000}><SiAboutdotme className='laptop:tw-text-4xl tablet:tw-text-3xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="skills" smooth={true} duration={1000}><GiSkills className='laptop:tw-text-4xl tablet:tw-text-3xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="qualification" smooth={true} duration={1000}><RiSuitcaseLine className='laptop:tw-text-4xl tablet:tw-text-3xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
+            <Link to="contact" smooth={true} duration={1000}><BiMessageDetail className='laptop:tw-text-4xl tablet:tw-text-3xl tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple' /></Link>
           </div>
         </div>
         <div className='tw-bg-background tw-col-start-2 tw-col-end-8'>

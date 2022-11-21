@@ -2,10 +2,10 @@ export const About = () => {
     return (
         <div className="tw-pt-20">
             <div className="tw-text-center ">
-                <p className="tw-text-4xl tw-text-primary">About Me</p>
-                <p className="tw-text-xl tw-text-secondary">My introduction</p>
+                <p className="laptop:tw-text-4xl tablet:tw-text-3xl tw-text-primary">About Me</p>
+                <p className="laptop:tw-text-xl tablet:tw-text-lg tw-text-secondary">My introduction</p>
             </div>
-            <div className="tw-mt-20 tw-text-xl tw-grid tw-grid-cols-6">
+            <div className="tw-mt-20 laptop:tw-text-xl tablet:tw-text-lg tw-grid tw-grid-cols-6">
                 <code className="tw-col-start-2 tw-col-span-4">
                     <span className="tw-text-code">const </span><span className="tw-text-name"> Arkadi </span><span className="tw-text-primary"> = </span><span className="tw-text-curlybrackets"> &#123;</span>
                     <br />
@@ -25,24 +25,18 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> askMeAbout </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">  [ </span> <span className="tw-text-curlybrackets">"Web Development",</span><span className="tw-text-curlybrackets">"Frontend"</span><span className="tw-text-curlybrackets"> ],</span>
                     <br />
-                    <span className="tw-text-code"> currentFocus </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">"Developing My Technical Skills",</span>
+                    <span className="tw-text-code"> currentFocus </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">"Developing My Technical Skills"</span>
                     <br />
                     <span className="tw-text-curlybrackets">&#125;;</span>
                 </code>
                 <div className="tw-col-start-2 tw-mt-10 tw-flex tw-justify-between tw-text-center">
                     <div>
-                        <span className="tw-text-primary tw-text-2xl">01+</span><br />
-                        <span className="tw-text-secondary tw-text-sm">Years <br />Experience</span>
+                        <span className="tw-text-primary laptop:tw-text-2xl tablet:tw-text-xl">01+</span><br />
+                        <span className="tw-text-secondary laptop:tw-text-sm tablet:tw-text-xs">Years <br />Experience</span>
                     </div>
                     <div>
-                        <span className="tw-text-primary tw-text-2xl">01</span><br />
-                        <span className="tw-text-secondary tw-text-sm">Companies</span>
-                    </div>
-                    <div>
-                        <a href="web development.pdf" download="web development.pdf">
-                            <button>click</button>
-                        </a>
-
+                        <span className="tw-text-primary laptop:tw-text-2xl tablet:tw-text-xl">01</span><br />
+                        <span className="tw-text-secondary laptop:tw-text-sm tablet:tw-text-xs">Companies</span>
                     </div>
                 </div>
             </div>
