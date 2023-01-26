@@ -17,7 +17,7 @@ export const Skills = () => {
                 <p className="laptop:tw-text-4xl tablet:tw-text-3xl tw-text-primary">Skills</p>
                 <p className="laptop:tw-text-xl tablet:tw-text-lg tw-text-secondary">My technical level</p>
             </div>
-            <div className="tw-grid tw-grid-cols-11 tw-ml-8">
+            <div className="tw-grid tw-grid-cols-11 tw-ml-28">
                 <div className="tw-col-start-2 tw-col-end-7">
                     <div>
                         <div className="tw-flex tw-items-center tw-cursor-pointer" onClick={handle_toggle_click}>
