@@ -10,7 +10,6 @@ import { Contact } from './Contact/contact';
 import { BiMessageDetail } from "react-icons/bi";
 import { GiSkills } from "react-icons/gi";
 
-
 export function App() {
   return (
     <div className="tw-h-screen tw-bg-background tw-font-sans tw-tracking-wider">

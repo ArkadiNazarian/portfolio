@@ -1,9 +1,12 @@
 import { BiSend } from "react-icons/bi";
+import { GridLoader } from "react-spinners";
+import { ToastContainer } from "react-toastify";
 import { IProps } from "./model";
 
 export const View = (props: IProps) => {
     return (
         <div className="tw-pt-20 tw-mb-8">
+
             <div className="tw-text-center">
                 <p className="laptop:tw-text-4xl tablet:tw-text-3xl tw-text-primary">Contact Me</p>
                 <p className="laptop:tw-text-xl tablet:tw-text-lg tw-text-secondary">Get in touch</p>
@@ -28,8 +31,12 @@ export const View = (props: IProps) => {
                         onChange={props.handleChange}
                     />
                 </div>
-                <button type="submit" className=" tw-rounded-md laptop:tw-h-14 tablet:tw-h-12 tw-w-32 laptop:tw-text-xl tablet:tw-text-lg tw-flex tw-justify-center tw-items-center tw-bg-purple tw-text-primary">Send <BiSend className="tw-pl-2 laptop:tw-text-2xl tablet:tw-text-xl" /></button>
+                <div className="tw-flex tw-flex-row tw-items-center">
+                    <button type="submit" className=" tw-rounded-md laptop:tw-h-14 tablet:tw-h-12 tw-w-32 laptop:tw-text-xl tablet:tw-text-lg tw-flex tw-justify-center tw-items-center tw-bg-purple tw-text-primary">Send <BiSend className="tw-pl-2 laptop:tw-text-2xl tablet:tw-text-xl" /> </button>
+                    <GridLoader color="#9382E8" className="tw-ml-2" loading={props.loading} size={5} />
+                </div>
             </form>
+            <ToastContainer />
         </div>
     )
 }
