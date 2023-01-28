@@ -12,7 +12,7 @@ import { GiSkills } from "react-icons/gi";
 
 export function App() {
   return (
-    <div className="tw-h-screen tw-bg-background tw-font-sans tw-tracking-wider">
+    <div className="tw-h-screen tw-bg-background tw-tracking-wider">
       <div className='tw-grid tw-grid-cols-8'>
         <div className='tw-col-start-1'>
           <div className="tw-flex tw-text-primary tw-flex-col tw-sticky tw-top-5 ">

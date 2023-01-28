@@ -23,22 +23,16 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"TypeScript",</span><span className="tw-text-property">"React.js",</span><span className="tw-text-property">"Redux.js",</span><span className="tw-text-property">"Tailwind CSS" ],</span>
                     <br />
+                    <span className="tw-text-code"> years of experience </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">+02</span><span className="tw-text-curlybrackets">,</span>
+                    <br />
+                    <span className="tw-text-code"> companies </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">01</span><span className="tw-text-curlybrackets">,</span>
+                    <br />
                     <span className="tw-text-code"> askMeAbout </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">  [ </span> <span className="tw-text-curlybrackets">"Web Development",</span><span className="tw-text-curlybrackets">"Frontend"</span><span className="tw-text-curlybrackets"> ],</span>
                     <br />
                     <span className="tw-text-code"> currentFocus </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">"Developing My Technical Skills"</span>
                     <br />
                     <span className="tw-text-curlybrackets">&#125;;</span>
                 </code>
-            </div>
-            <div className="tw-mt-10 tw-flex tw-text-center laptop:tw-ml-20">
-                <div>
-                    <span className="tw-text-primary laptop:tw-text-2xl tablet:tw-text-xl">02+</span><br />
-                    <span className="tw-text-secondary laptop:tw-text-sm tablet:tw-text-xs">Years <br />Experience</span>
-                </div>
-                <div>
-                    <span className="tw-text-primary laptop:tw-text-2xl tablet:tw-text-xl">01</span><br />
-                    <span className="tw-text-secondary laptop:tw-text-sm tablet:tw-text-xs">Companies</span>
-                </div>
             </div>
         </div>
     )
