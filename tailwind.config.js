@@ -2,6 +2,9 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  corePlugins: {
+    preflight: false,
+  },
   prefix: "tw-",
   theme: {
     colors: {
@@ -19,7 +22,11 @@ module.exports = {
       'tablet': '768px',
       'laptop': '1024px'
     },
-    extend: {},
+    extend: {
+      transformOrigin: {
+        'custom-origin': '70% 55%',
+      }
+    },
   },
   plugins: [],
 }
