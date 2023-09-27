@@ -19,10 +19,14 @@ export const Qualification = () => {
                 </div>
                 <div className="tw-flex tw-flex-col">
                     <p className="laptop:tw-text-2xl tablet:tw-text-xl tw-text-purple tw-flex tw-items-center"><MdWorkOutline className="tw-text-purple laptop:tw-text-3xl tablet:tw-text-2xl tw-mr-3" />Work</p>
-                    <p className="laptop:tw-text-base tablet:tw-text-sm tw-text-primary">Frontend Web Developer </p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm tw-text-primary">Frontend Developer </p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm tw-text-secondary"><FaBuilding className="tw-text-purple" />  TeamHive </p>
-                    <p className="laptop:tw-text-sm tablet:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" />  2021 - present</p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Nov. 2021 - Apr. 2023</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Helsinki - Finland</p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm tw-text-primary">Frontend Developer </p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm tw-text-secondary"><FaBuilding className="tw-text-purple" />  Layers.app </p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> May. 2023 - Sep. 2023</p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Tallinn - Estonia</p>
                 </div>
             </div>
         </div>
