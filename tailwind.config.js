@@ -19,7 +19,7 @@ module.exports = {
       'background-gray':'#374151'
     },
     screens: {
-      'mobile': '640px',
+      'mobile': '300px',
       'tablet': '768px',
       'laptop': '1024px'
     },
