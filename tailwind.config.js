@@ -15,7 +15,8 @@ module.exports = {
       'code': "#db8ddb",
       'name': "#fac863",
       'curlybrackets': "#7adf76",
-      'property': "#8bd890"
+      'property': "#8bd890",
+      'background-gray':'#374151'
     },
     screens: {
       'mobile': '640px',
