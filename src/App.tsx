@@ -39,6 +39,7 @@ export function App() {
           <section id='contact'>
             <Contact />
           </section>
+          <p className='tw-text-secondary tw-p-2'>2023 Developed by Arkadi Nazarian </p>
         </div>
       </div>
     </div>
