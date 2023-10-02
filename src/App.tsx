@@ -14,8 +14,8 @@ export function App() {
   return (
     <div className="tw-h-screen tw-bg-background tw-tracking-wider">
       <div>
-        <div className='tw-fixed tw-top-0 tw-z-50'>
-          <div className="laptop:tw-flex tablet:tw-flex mobile:tw-flex mobile:tw-flex-row mobile:tw-bg-background tw-text-primary laptop:tw-flex-col tablet:tw-flex-row tablet:tw-justify-between laptop:tw-w-auto tablet:tw-w-[100vw] mobile:tw-w-[100vw]">
+        <div className='tw-fixed tw-top-0 tw-left-0 tw-z-50'>
+          <div className="laptop:tw-flex tablet:tw-flex mobile:tw-flex mobile:tw-flex-row mobile:tw-bg-background tw-text-primary laptop:tw-flex-col tablet:tw-flex-row tablet:tw-justify-between laptop:tw-w-auto tablet:tw-w-[100vw] mobile:tw-w-[110vw]">
             <Link to="home" smooth={true} duration={1000}><FiHome className="laptop:tw-text-4xl tablet:tw-text-3xl mobile:tw-text-lg laptop:tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple" /></Link>
             <Link to="about" smooth={true} duration={1000}><SiAboutdotme className="laptop:tw-text-4xl tablet:tw-text-3xl mobile:tw-text-lg tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple" /></Link>
             <Link to="skills" smooth={true} duration={1000}><GiSkills className="laptop:tw-text-4xl tablet:tw-text-3xl mobile:tw-text-lg tw-w-7 tw-cursor-pointer tw-m-7 hover:tw-text-purple" /></Link>
