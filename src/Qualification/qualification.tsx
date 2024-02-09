@@ -24,9 +24,9 @@ export const Qualification = () => {
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Nov. 2021 - Apr. 2023</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Helsinki - Finland</p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Frontend Developer </p>
-                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-secondary"><FaBuilding className="tw-text-purple" />  Layers.app </p>
-                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> May. 2023 - Sep. 2023</p>
-                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Tallinn - Estonia</p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-secondary"><FaBuilding className="tw-text-purple" />  Layers Technologies INC. </p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> May. 2023 - Jan. 2024</p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Vancouver - Canada</p>
                 </div>
             </div>
         </div>
