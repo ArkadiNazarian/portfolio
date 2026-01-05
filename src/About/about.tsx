@@ -11,7 +11,7 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> pronouns </span><span className="tw-text-primary"> : </span><span className="tw-text-property">"He"</span>  <span className="tw-text-code"> | </span> <span className="tw-text-property">"Him",</span>
                     <br />
-                    <span className="tw-text-code"> age </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"21 years old",</span>
+                    <span className="tw-text-code"> age </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"{`${new Date().getFullYear() - 2002} years old`}",</span>
                     <br />
                     <span className="tw-text-code"> city </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Tehran",</span>
                     <br />
@@ -24,9 +24,9 @@ export const About = () => {
                     <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"Next.js",</span><span className="tw-text-property">"React.js" ]"</span>
                     {/* <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"TypeScript",</span><span className="tw-text-property">"React.js",<span className="tw-text-property">"Next.js",</span></span><span className="tw-text-property">"Redux.js",</span><span className="tw-text-property">"Tailwind CSS" ],</span> */}
                     <br />
-                    <span className="tw-text-code"> years of experience </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">+02</span><span className="tw-text-curlybrackets">,</span>
+                    <span className="tw-text-code"> years of experience </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">+04</span><span className="tw-text-curlybrackets">,</span>
                     <br />
-                    <span className="tw-text-code"> companies </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">02</span><span className="tw-text-curlybrackets">,</span>
+                    <span className="tw-text-code"> companies </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">05</span><span className="tw-text-curlybrackets">,</span>
                     <br />
                     <span className="tw-text-code"> askMeAbout </span> <span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets">  [ </span> <span className="tw-text-curlybrackets">"Web Development",</span><span className="tw-text-curlybrackets">"Frontend"</span><span className="tw-text-curlybrackets"> ],</span>
                     <br />
