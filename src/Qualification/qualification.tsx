@@ -9,7 +9,7 @@ export const Qualification = () => {
                 <p className="laptop:tw-text-4xl tablet:tw-text-3xl mobile:tw-text-2xl tw-text-primary">Qualification</p>
                 <p className="laptop:tw-text-xl tablet:tw-text-lg mobile:tw-text-base tw-text-secondary">My personal journey</p>
             </div>
-            <div className="tw-flex tw-flex-row tw-justify-center tw-gap-[8vw]">
+            <div className="tw-flex mobile:tw-flex-col tablet:tw-flex-row tw-justify-center tw-gap-12">
                 <div className="tw-flex tw-flex-col">
                     <p className="laptop:tw-text-2xl tablet:tw-text-xl mobile:tw-text-lg tw-text-purple tw-mr-5 tw-flex tw-items-center"><MdSchool className="tw-text-purple laptop:tw-text-3xl tablet:tw-text-2xl mobile:tw-text-xl tw-mr-3" />Education</p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Math and Physics Diploma</p>

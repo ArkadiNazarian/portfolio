@@ -13,9 +13,9 @@ export const About = () => {
                     <br />
                     <span className="tw-text-code"> age </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"{`${new Date().getFullYear() - 2002} years old`}",</span>
                     <br />
-                    <span className="tw-text-code"> city </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Tehran",</span>
+                    <span className="tw-text-code"> city </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Yerevan",</span>
                     <br />
-                    <span className="tw-text-code"> country </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Iran",</span>
+                    <span className="tw-text-code"> country </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">"Armenia",</span>
                     <br />
                     <span className="tw-text-code"> nationality </span> <span className="tw-text-primary"> : </span> <span className="tw-text-property">[ "Iranian","Armenian" ],</span>
                     <br />
