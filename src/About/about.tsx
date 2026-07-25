@@ -24,7 +24,7 @@ export const About = () => {
                     <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"Next.js",</span><span className="tw-text-property">"React.js" ]"</span>
                     {/* <span className="tw-text-code"> code </span><span className="tw-text-primary"> : </span> <span className="tw-text-curlybrackets"> [ </span><span className="tw-text-property">"TypeScript",</span><span className="tw-text-property">"React.js",<span className="tw-text-property">"Next.js",</span></span><span className="tw-text-property">"Redux.js",</span><span className="tw-text-property">"Tailwind CSS" ],</span> */}
                     <br />
-                    <span className="tw-text-code"> years of experience </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">+04</span><span className="tw-text-curlybrackets">,</span>
+                    <span className="tw-text-code"> years of experience </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">+05</span><span className="tw-text-curlybrackets">,</span>
                     <br />
                     <span className="tw-text-code"> companies </span> <span className="tw-text-primary"> : </span><span className="tw-text-curlybrackets">05</span><span className="tw-text-curlybrackets">,</span>
                     <br />

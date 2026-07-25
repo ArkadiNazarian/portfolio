@@ -31,13 +31,13 @@ export const Qualification = () => {
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Vancouver - Canada</p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Frontend Developer </p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-secondary"><FaBuilding className="tw-text-purple" />  Bazaar</p>
-                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Apr. 2024 - Apr. 2025</p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Apr. 2024 - Jan. 2025</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Queensland - Autralia</p>
-                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Frontend Developer </p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Senior Frontend Developer </p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-secondary"><FaBuilding className="tw-text-purple" />  Bazaarsazan Naminet</p>
-                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Jan. 2025 - Present</p>
+                    <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Jan. 2025 - Mar. 2026</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Tehran - Iran</p>
-                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Frontend Developer </p>
+                    <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-primary">Senior Frontend Developer </p>
                     <p className="laptop:tw-text-base tablet:tw-text-sm mobile:tw-text-xs tw-text-secondary"><FaBuilding className="tw-text-purple" />  M.IT Group</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><FaCalendarAlt className="tw-text-purple" /> Aug. 2025 - Present</p>
                     <p className="laptop:tw-text-sm tablet:tw-text-xs mobile:tw-text-xs tw-text-secondary"><ImLocation className="tw-text-purple" />  Tehran - Iran</p>
