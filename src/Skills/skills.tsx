@@ -14,7 +14,7 @@ export const Skills = () => {
     }
 
     return (
-        <div className="tw-pt-20 ">
+        <div className="tw-pt-20 tw-px-2 lg:tw-px-0">
             <div className="tw-text-center ">
                 <p className="laptop:tw-text-4xl tablet:tw-text-3xl mobile:tw-text-2xl tw-text-primary">Skills</p>
                 <p className="laptop:tw-text-xl tablet:tw-text-lg mobile:tw-text-base tw-text-secondary">My technical level</p>
